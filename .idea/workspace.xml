@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab4086d-213d-4fa0-bd68-983750914383" name="Changes" comment="code push">
+      <change afterPath="$PROJECT_DIR$/src/Lambda/Lambdas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lambda/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/COLLECTION/Mapss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/COLLECTION/Mapss.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Application.ARRAYLIST.executor": "Run",
     "Application.DateAndTime.executor": "Run",
     "Application.Driver.executor": "Run",
+    "Application.Lambdas.executor": "Run",
     "Application.MAIN.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Main1.executor": "Run",
@@ -127,7 +129,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716198602287</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="code push">
+      <option name="closed" value="true" />
+      <created>1716200287830</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1716200287830</updated>
+    </task>
+    <task id="LOCAL-00007" summary="code push">
+      <option name="closed" value="true" />
+      <created>1716200309669</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1716200309669</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
