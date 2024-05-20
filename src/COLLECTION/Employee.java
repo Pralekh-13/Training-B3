@@ -11,6 +11,24 @@ public class Employee {
         this.ePosition = ePosition;
     }
 
+    public Employee(int eId) {
+        this.eId = eId;
+    }
+
+    public Employee(String eName) {
+        this.eName = eName;
+    }
+
+    public Employee(String eName, int eId) {
+        this.eName = eName;
+        this.eId = eId;
+    }
+
+    public Employee(String eName, String ePosition) {
+        this.eName = eName;
+        this.ePosition = ePosition;
+    }
+
     public Employee() {
     }
 
