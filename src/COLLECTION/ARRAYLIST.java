@@ -46,6 +46,9 @@ public class ARRAYLIST {
         set.add("joker");
         System.out.println(set);
 
+
+
+
     }
 
 }
