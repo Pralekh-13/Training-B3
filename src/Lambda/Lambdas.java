@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Lambdas {
     public static void main(String[] args) {
@@ -24,6 +25,7 @@ public class Lambdas {
                 new Person("shri2",15),
                 new Person("shri3",23));
 
+
         List<Integer> ages = people.stream()
                 .map(person -> person.getAge()+2)
                 .collect(Collectors.toList());
@@ -41,6 +43,7 @@ public class Lambdas {
                 .reduce(0, (age1, age2) -> age1 + age2);
 
         System.out.println(totalAge);
+
 
     }
 
