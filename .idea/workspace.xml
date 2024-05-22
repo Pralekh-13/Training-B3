@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ab4086d-213d-4fa0-bd68-983750914383" name="Changes" comment="map, filter,reduce">
+      <change afterPath="$PROJECT_DIR$/src/OVERVIEW/CARS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OVERVIEW/CarsFunctions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OVERVIEW/DOUBTS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambda/Lambdas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/Lambdas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lambda/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lambda/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FunctionOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FunctionOverloading.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -53,25 +55,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ARRAYLIST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DateAndTime.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Driver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Lambdas.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MAIN.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MainFunctionOverloading.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Mapss.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseString.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;pralekh-date&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/TRAINING-B3/src&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ARRAYLIST.executor": "Run",
+    "Application.DOUBTS.executor": "Run",
+    "Application.DateAndTime.executor": "Run",
+    "Application.Driver.executor": "Run",
+    "Application.Lambdas.executor": "Run",
+    "Application.MAIN.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.Main1.executor": "Run",
+    "Application.MainFunctionOverloading.executor": "Run",
+    "Application.Mapss.executor": "Run",
+    "Application.ReverseString.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "pralekh-date",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Admin/Desktop/TRAINING-B3/src",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\Desktop\TRAINING-B3\src" />
@@ -153,7 +156,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716202129062</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="map, filter,reduce">
+      <option name="closed" value="true" />
+      <created>1716291600669</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1716291600669</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
