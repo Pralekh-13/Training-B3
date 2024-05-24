@@ -11,6 +11,7 @@ public class DBUtil {
     private static final String JDBC_PASSWORD = "root";
 
     public static Connection getConnection() throws SQLException {
+
         return DriverManager.getConnection(JDBC_URL, JDBC_USERNAME, JDBC_PASSWORD);
     }
 
