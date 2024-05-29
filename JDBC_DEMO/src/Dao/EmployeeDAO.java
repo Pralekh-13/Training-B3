@@ -1,7 +1,7 @@
 package Dao;
 
 import Models.Employee;
-import Utility.DBUtil;
+import Utility.DATABASEUItil;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ public class EmployeeDAO {
         String sql = "INSERT INTO employees (name, department, salary)" +
                 " VALUES (?, ?, ?)";
 
-        try (Connection conn = DBUtil.getConnection();
+        try (Connection conn = DATABASEUItil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, employee.getName());
             stmt.setString(2, employee.getDepartment());
@@ -26,7 +26,7 @@ public class EmployeeDAO {
         List<Employee> employees = new ArrayList<>();
         String sql = "SELECT * FROM employees";
 
-        try (Connection conn = DBUtil.getConnection();
+        try (Connection conn = DATABASEUItil.getConnection();
              Statement stmt = conn.createStatement();
              ResultSet rs = stmt.executeQuery(sql)) {
             while (rs.next()) {
@@ -45,7 +45,7 @@ public class EmployeeDAO {
         String sql = "SELECT * FROM employees WHERE id=?";
         Employee employee = null;
 
-        try (Connection conn = DBUtil.getConnection();
+        try (Connection conn = DATABASEUItil.getConnection();
              PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, id);
             try (ResultSet rs = stmt.executeQuery()) {
@@ -64,7 +64,7 @@ public class EmployeeDAO {
     public void updateEmployee(Employee employee) throws SQLException {
         String sql = "UPDATE employees SET name = ?, department = ?, salary = ? WHERE id = ?";
 
-        try (Connection conn = DBUtil.getConnection(); PreparedStatement stmt = conn.prepareStatement(sql)) {
+        try (Connection conn = DATABASEUItil.getConnection(); PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setString(1, employee.getName());
             stmt.setString(2, employee.getDepartment());
             stmt.setDouble(3, employee.getSalary());
@@ -76,7 +76,7 @@ public class EmployeeDAO {
     public void deleteEmployee(int id) throws SQLException {
         String sql = "DELETE FROM employees WHERE id = ?";
 
-        try (Connection conn = DBUtil.getConnection(); PreparedStatement stmt = conn.prepareStatement(sql)) {
+        try (Connection conn = DATABASEUItil.getConnection(); PreparedStatement stmt = conn.prepareStatement(sql)) {
             stmt.setInt(1, id);
             stmt.executeUpdate();
         }
